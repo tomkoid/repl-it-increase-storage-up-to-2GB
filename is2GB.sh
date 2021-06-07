@@ -5,7 +5,8 @@ read -p "Press any key to continue.."
 echo Started.
 cd
 mkdir replit
-echo cd && cd replit > r.sh
+echo cd> r.sh
+cd replit>> r.sh
 chmod +x r.sh
 echo Finished!
 echo
