@@ -4,7 +4,7 @@ echo You can access to files in directory ONLY using shell.
 read -p "Press any key to continue.."
 echo Started.
 rm is2GB.sh
-echo echo cd && echo cd replit > r.sh
+wget https://raw.githubusercontent.com/TheDarknessToma/repl-it-increase-storage-up-to-2GB/main/r.sh
 chmod +x r.sh
 cd
 mkdir replit
