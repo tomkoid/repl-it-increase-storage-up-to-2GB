@@ -7,7 +7,7 @@ rm is2GB.sh
 cd
 mkdir replit
 echo cd > r.sh
-cd replit >> r.sh
+echo cd replit >> r.sh
 chmod +x r.sh
 echo Finished!
 echo
