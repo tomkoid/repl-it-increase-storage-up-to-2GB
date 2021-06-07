@@ -4,8 +4,7 @@ echo You can access to files in directory ONLY using shell.
 read -p "Press any key to continue.."
 echo Started.
 rm is2GB.sh
-echo cd > r.sh
-echo cd replit >> r.sh
+echo echo cd && echo cd replit > r.sh
 chmod +x r.sh
 cd
 mkdir replit
